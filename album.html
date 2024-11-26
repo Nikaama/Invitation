@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Photo & Video Library</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Additional Custom Styles for Wedding Theme */
+    body {
+      background-color: #f9f6f3;
+    }
+    header {
+      background-color: #f5b7b1;
+    }
+    footer {
+      background-color: #f5b7b1;
+    }
+    .card {
+      background-color: #fff7f3;
+    }
+    h1, h2 {
+      font-family: 'Georgia', serif;
+    }
+    .gallery-item {
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff9f1;
+    }
+    .gallery-item img, .gallery-item video {
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body class="font-sans">
+
+  <!-- Header Section -->
+  <header class="py-8 text-center">
+    <h1 class="text-4xl font-serif text-white">Our Wedding Journey</h1>
+    <p class="text-xl text-white mt-2">A collection of memories to cherish forever</p>
+  </header>
+
+  <!-- Gallery Section -->
+  <div class="container mx-auto px-6 py-10">
+
+    <!-- Wedding Image Gallery -->
+    <div class="mb-12">
+      <h2 class="text-3xl font-serif text-center text-gray-800 mb-6">Wedding Photos</h2>
+      <div class="flex space-x-6 overflow-x-auto pb-6">
+        <div class="gallery-item p-4 flex-none w-72">
+          <img src="image1.jpg" alt="Wedding Photo 1" class="w-full h-48 object-cover rounded-md">
+        </div>
+        <div class="gallery-item p-4 flex-none w-72">
+          <img src="image2.jpg" alt="Wedding Photo 2" class="w-full h-48 object-cover rounded-md">
+        </div>
+        <div class="gallery-item p-4 flex-none w-72">
+          <img src="image3.jpg" alt="Wedding Photo 3" class="w-full h-48 object-cover rounded-md">
+        </div>
+        <!-- Additional photos can be added here -->
+        <div class="gallery-item p-4 flex-none w-72">
+          <img src="image4.jpg" alt="Wedding Photo 4" class="w-full h-48 object-cover rounded-md">
+        </div>
+        <div class="gallery-item p-4 flex-none w-72">
+          <img src="image5.jpg" alt="Wedding Photo 5" class="w-full h-48 object-cover rounded-md">
+        </div>
+      </div>
+    </div>
+
+    <!-- Wedding Video Gallery -->
+    <div>
+      <h2 class="text-3xl font-serif text-center text-gray-800 mb-6">Wedding Videos</h2>
+      <div class="flex space-x-6 overflow-x-auto pb-6">
+        <div class="gallery-item p-4 flex-none w-72">
+          <video controls class="w-full h-48 object-cover rounded-md">
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="gallery-item p-4 flex-none w-72">
+          <video controls class="w-full h-48 object-cover rounded-md">
+            <source src="video2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="gallery-item p-4 flex-none w-72">
+          <video controls class="w-full h-48 object-cover rounded-md">
+            <source src="video3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- Additional videos can be added here -->
+        <div class="gallery-item p-4 flex-none w-72">
+          <video controls class="w-full h-48 object-cover rounded-md">
+            <source src="video4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="gallery-item p-4 flex-none w-72">
+          <video controls class="w-full h-48 object-cover rounded-md">
+            <source src="video5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="py-4 text-center text-white">
+    <p class="text-lg">&copy; 2024 Wedding of Shrutiparna and Samrat</p>
+    <p class="text-sm">A lifetime of love and memories</p>
+  </footer>
+
+</body>
+</html>
